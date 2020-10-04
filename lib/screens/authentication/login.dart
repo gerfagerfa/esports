@@ -9,6 +9,7 @@ class Login extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: kBackgroundColor,
+      resizeToAvoidBottomPadding: false,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
